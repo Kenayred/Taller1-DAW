@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #FAAF9F;
+    font-family: 'Source Code Pro', monospace;
+}
+
+table{
+    background-color: #C2FA9F;
+    position: relative;
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 35px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 30px;
+    margin-top: 28vh;
+}
+
+table::after{
+    padding: 20px;
+    background-color: blue;
+}
+
+tr{
+    margin: 0;
+    padding: 10px;
+}
